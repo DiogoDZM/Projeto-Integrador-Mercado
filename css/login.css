@@ -1,0 +1,129 @@
+/* Cabeçalho */
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #3CB371;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cabecalho{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #229757;
+    color: white;
+    font-size: small;
+    align-items: center;
+    height: 70px;
+}
+.logo{
+    width: 70px;
+    margin: 10px;
+}
+.topo{
+    font-size: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.carrinho{
+    margin: 10px;
+}
+.pesquisar{
+    background-color: white;
+    margin: 10px;
+    border: solid white 2px;
+    border-radius: 10px;
+    height: 35px;
+}
+.pesquisar img{
+    float: left;
+    height: 20px;
+    margin: 9px 0px 0px 5px;
+}
+.textopesquisa{
+    float:left;
+    background-color: transparent;
+    padding-left: 5px;
+    border:0px;
+    margin: 9px;
+    font-size: 14px;
+}
+.botaopesquisa{
+    border: none;
+    float: left;
+    height: 32px;
+    width: 80px;
+    border-radius:0 7px 7px 0;
+    font-weight: bold;
+    background-color: #229757;
+    color: white;
+}
+.botaopesquisa:hover{
+    background-color:#229757;
+    color: black;
+}
+.idioma{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 20px 5px 0px 5px;
+    
+}
+.idioma button{
+    background-color: transparent;
+    margin: 0px 5px 0px 5px;
+    border: solid rgb(0, 0, 0) 2px;
+}
+.idioma button a{
+    color: rgb(255, 255, 255);
+}
+/* Fim do Cabeçalho */
+
+/* Corpo */
+.formulario{
+    background-color: white;
+    max-width: 500%;
+    width: 400px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 0;
+    border-radius: 20px;
+}
+.formulario h3 {
+    text-align: center;
+    color: #3CB371;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.formulario input[type=text],
+.formulario input[type=password]{
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+.formulario input[type=submit]{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background-color:#3CB371;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+}
+.contato{
+    text-decoration: none;
+    color: white;
+}
+.contato:hover{
+    color: white;
+}
+/* Fim do Corpo */
